@@ -1,3 +1,7 @@
 User Agent雲元件實做
 除了用元件提供的library
 還有嘗試使用JavaScript來判斷用戶端訊息
+解析度判斷的函式似乎不太準確
+
+http://detectmobilebrowsers.com/
+判斷用戶端是否為手機用戶
