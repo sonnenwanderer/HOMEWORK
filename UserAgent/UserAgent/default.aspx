@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-  <title>scenic_photo</title>
+  <title>cloud_computation</title>
   <meta name="description" content="website description" />
   <meta name="keywords" content="website keywords, website keywords" />
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
@@ -26,7 +26,7 @@
         <div id="menu_container">
           <ul class="sf-menu" id="nav">
             <li><a href="default.aspx">Home</a></li>
-            <li><a href="examples.html">Examples</a></li>
+            <li><a href="examples.aspx">Examples</a></li>
             <li><a href="page.html">A Page</a></li>
             <li><a href="another_page.html">Another Page</a></li>
             <li><a href="#">Example Drop Down</a>
@@ -78,8 +78,50 @@
         <asp:Label ID="Label1" runat="server"></asp:Label>
         
         <br />
+        <hr />
         <br />
+        瀏覽器的名稱和主要版本號碼: 
+        <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
         <br />
+        瀏覽器字串:
+        <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
+        <br />
+        瀏覽器完整版本號碼:
+        <asp:Label ID="Label4" runat="server" Text="Label"></asp:Label>
+        <br />
+       用戶端使用的平台:
+        <asp:Label ID="Label5" runat="server" Text="Label"></asp:Label>
+        <br />
+        瀏覽器是否為Beta 版本:
+        <asp:Label ID="Label6" runat="server" Text="Label"></asp:Label>
+        <br />
+        瀏覽器是否為 Web Crawler 搜尋引擎: 
+        <asp:Label ID="Label7" runat="server" Text="Label"></asp:Label>
+        <br />
+        瀏覽器是否支援 HTML 框架:
+        <asp:Label ID="Label8" runat="server" Text="Label"></asp:Label>
+        <br />
+        瀏覽器是否支援 HTML table項目:
+        <asp:Label ID="Label9" runat="server" Text="Label"></asp:Label>
+        <br />
+        瀏覽器是否支援 Cookie:
+        <asp:Label ID="Label10" runat="server" Text="Label"></asp:Label>
+        <br />
+        瀏覽器是否支援 VBScript:
+        <asp:Label ID="Label11" runat="server" Text="Label"></asp:Label>
+        <br />
+        瀏覽器支援之 ECMAScript 的版本:
+        <asp:Label ID="Label12" runat="server" Text="Label"></asp:Label>
+        <br />
+        瀏覽器是否支援 Java:
+        <asp:Label ID="Label13" runat="server" Text="Label"></asp:Label>
+        <br />
+        瀏覽器是否支援 ActiveX 控制項:
+        <asp:Label ID="Label14" runat="server" Text="Label"></asp:Label>
+        <br />
+        瀏覽器支援的 JavaScript 版本:
+        <asp:Label ID="Label15" runat="server" Text="Label"></asp:Label>
+        <br /><br />
         <!--
         以JavaScript抓取瀏覽器資訊:<br />
         <div id="example"></div>
@@ -112,7 +154,7 @@
       </div>
     </div>
     <footer>
-      <p>Copyright &copy; scenic_photo | <a href="http://www.css3templates.co.uk">design from css3templates.co.uk</a></p>
+      <p>Copyright &copy; cloud_computation | <a href="http://www.css3templates.co.uk">design from css3templates.co.uk</a></p>
     </footer>
   </div>
   <p>&nbsp;</p>

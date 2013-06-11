@@ -15,6 +15,21 @@ namespace UserAgent
             UGD x = new UGD();
             string browser = "";
             Label1.Text = x.GetBrowserCapabilities();
+            Label2.Text = x.GetBrowseType();
+            Label3.Text = x.GetBrowseBrowser();
+            Label4.Text = x.GetBrowseVersion();
+            Label5.Text = x.GetBrowsePlatform();
+            Label6.Text = x.GetBrowseBeta();
+            Label7.Text = x.GetBrowseCrawler();
+            Label8.Text = x.GetBrowseFrames();
+            Label9.Text = x.GetBrowseTables();
+            Label10.Text = x.GetBrowseCookies();
+            Label11.Text = x.GetBrowseVBScript();
+            Label12.Text = x.GetBrowseEcmaScriptVersion();
+            Label13.Text = x.GetBrowseJavaApplets();
+            Label14.Text = x.GetBrowseActiveXControls();
+            Label15.Text = x.GetBrowseJavaScriptVersion();
+
             browser = x.GetBrowseType().Substring(0, 2);
 
             if (browser == "IE")

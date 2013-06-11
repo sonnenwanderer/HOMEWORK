@@ -1,8 +1,10 @@
-﻿<!DOCTYPE HTML>
-<html>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="examples.aspx.cs" Inherits="UserAgent.WebForm2" %>
 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>scenic_photo</title>
+  <title>cloud_computation</title>
   <meta name="description" content="website description" />
   <meta name="keywords" content="website keywords, website keywords" />
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
@@ -17,7 +19,7 @@
       <div id="logo">
         <div id="logo_text">
           <!-- class="logo_colour", allows you to change the colour of the text -->
-          <h1><a href="default.aspx">scenic<span class="logo_colour">_photo</span></a></h1>
+          <h1><a href="default.aspx">cloud<span class="logo_colour">_computation</span></a></h1>
           <h2>Simple. Contemporary. Website Template.</h2>
         </div>
       </div>
@@ -25,7 +27,7 @@
         <div id="menu_container">
           <ul class="sf-menu" id="nav">
             <li><a href="default.aspx">Home</a></li>
-            <li><a href="examples.html">Examples</a></li>
+            <li><a href="examples.aspx">Examples</a></li>
             <li><a href="page.html">A Page</a></li>
             <li><a href="another_page.html">Another Page</a></li>
             <li><a href="#">Example Drop Down</a>
@@ -140,7 +142,7 @@
       </div>
     </div>
     <footer>
-      <p>Copyright &copy; scenic_photo | <a href="http://www.css3templates.co.uk">design from css3templates.co.uk</a></p>
+      <p>Copyright &copy; cloud_computation | <a href="http://www.css3templates.co.uk">design from css3templates.co.uk</a></p>
     </footer>
   </div>
   <p>&nbsp;</p>
@@ -149,9 +151,9 @@
   <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
   <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
   <script type="text/javascript">
-    $(document).ready(function() {
-      $('ul.sf-menu').sooperfish();
-    });
+      $(document).ready(function () {
+          $('ul.sf-menu').sooperfish();
+      });
   </script>
 </body>
 </html>

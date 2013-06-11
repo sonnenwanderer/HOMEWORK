@@ -55,7 +55,6 @@
   <ItemGroup>
     <Content Include="another_page.html" />
     <Content Include="css\style.css" />
-    <Content Include="examples.html" />
     <Content Include="fonts\News Cycle SIL OFL Font License 1.1.txt" />
     <Content Include="images\arrows-white.png" />
     <Content Include="images\back.jpg" />
@@ -79,6 +78,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="default.aspx" />
+    <Content Include="examples.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -88,6 +88,13 @@
     </Compile>
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="examples.aspx.cs">
+      <DependentUpon>examples.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="examples.aspx.designer.cs">
+      <DependentUpon>examples.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
